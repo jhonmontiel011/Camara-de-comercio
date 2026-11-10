@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cámara de Comercio | Exposición</title>
+
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- BARRA DE PROGRESO -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- FONDO DE PARTÍCULAS -->
+    <div class="particles"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span>CC</span>
+            <div>
+                <strong>CÁMARA</strong>
+                <small>DE COMERCIO</small>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#que-es">¿Qué es?</a>
+            <a href="#historia">Historia</a>
+            <a href="#funciones">Funciones</a>
+            <a href="#registro">Registro</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+
+            <span class="tag">EXPOSICIÓN ACADÉMICA • 2026</span>
+
+            <h1>
+                Cámara de
+                <span>Comercio</span>
+            </h1>
+
+            <p>
+                Una institución fundamental para la formalización,
+                crecimiento y fortalecimiento del sector empresarial
+                en Colombia.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#que-es" class="btn primary">Comenzar exposición →</a>
+                <a href="#funciones" class="btn secondary">Explorar funciones</a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+
+            <div class="floating-icon">🏢</div>
+
+            <h3>EMPRESAS</h3>
+
+            <div class="connection">
+                <div></div>
+                <span>↔</span>
+                <div></div>
+            </div>
+
+            <h3>DESARROLLO</h3>
+
+            <div class="connection">
+                <div></div>
+                <span>↔</span>
+                <div></div>
+            </div>
+
+            <h3>COLOMBIA</h3>
+
+        </div>
+
+        <div class="scroll">
+            ↓ Desliza para comenzar
+        </div>
+
+    </section>
+
+
+    <!-- ¿QUÉ ES? -->
+    <section id="que-es" class="section">
+
+        <div class="section-title reveal">
+
+            <span>01 • CONCEPTO</span>
+
+            <h2>
+                ¿Qué es la
+                <strong>Cámara de Comercio?</strong>
+            </h2>
+
+            <p>
+                Mucho más que un lugar para registrar empresas.
+            </p>
+
+        </div>
+
+        <div class="two-columns">
+
+            <div class="info-card big reveal">
+
+                <div class="icon">🏛️</div>
+
+                <h3>Una entidad de derecho privado</h3>
+
+                <p>
+                    Las cámaras de comercio son personas jurídicas
+                    de derecho privado, sin ánimo de lucro y de
+                    carácter corporativo y gremial.
+                </p>
+
+                <p>
+                    Al mismo tiempo, cumplen determinadas funciones
+                    públicas que les son delegadas por la ley.
+                </p>
+
+            </div>
+
+
+            <div class="info-list">
+
+                <div class="mini-card reveal">
+                    <span>01</span>
+                    <div>
+                        <h3>Formalización</h3>
+                        <p>
+                            Ayuda a que los negocios desarrollen
+                            sus actividades dentro del marco legal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mini-card reveal">
+                    <span>02</span>
+                    <div>
+                        <h3>Fortalecimiento empresarial</h3>
+                        <p>
+                            Ofrece programas, orientación y
+                            herramientas para los empresarios.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mini-card reveal">
+                    <span>03</span>
+                    <div>
+                        <h3>Competitividad</h3>
+                        <p>
+                            Promueve iniciativas para mejorar
+                            el desarrollo empresarial y regional.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DATOS -->
+    <section class="stats-section">
+
+        <div class="stat reveal">
+            <span class="number" data-target="57">0</span>
+            <p>Cámaras de Comercio en Colombia</p>
+        </div>
+
+        <div class="stat reveal">
+            <span class="number" data-target="1904">0</span>
+            <p>Año de fundación de la Cámara de Comercio de Medellín</p>
+        </div>
+
+        <div class="stat reveal">
+            <span class="number" data-target="86">0</span>
+            <p>Artículo del Código de Comercio relacionado con sus funciones</p>
+        </div>
+
+    </section>
+
+
+    <!-- HISTORIA -->
+    <section id="historia" class="section dark-section">
+
+        <div class="section-title reveal">
+
+            <span>02 • HISTORIA</span>
+
+            <h2>
+                Una institución con
+                <strong>más de un siglo</strong>
+            </h2>
+
+            <p>
+                La evolución de las cámaras de comercio en Colombia.
+            </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">1904</div>
+
+                <div class="timeline-content">
+                    <h3>Nace la Cámara de Comercio de Medellín</h3>
+
+                    <p>
+                        La Cámara de Comercio de Medellín para Antioquia
+                        fue fundada el 28 de noviembre de 1904.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">1931</div>
+
+                <div class="timeline-content">
+                    <h3>El Registro Mercantil</h3>
+
+                    <p>
+                        La Ley 28 de 1931 delegó a las cámaras de comercio
+                        la administración del registro público mercantil.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">1980+</div>
+
+                <div class="timeline-content">
+                    <h3>Nuevos servicios empresariales</h3>
+
+                    <p>
+                        Las cámaras ampliaron su trabajo hacia programas
+                        de fortalecimiento, competitividad, conciliación
+                        y desarrollo empresarial.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">2026</div>
+
+                <div class="timeline-content">
+                    <h3>Transformación digital</h3>
+
+                    <p>
+                        Actualmente ofrecen múltiples trámites,
+                        servicios y herramientas empresariales mediante
+                        canales virtuales.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FUNCIONES -->
+    <section id="funciones" class="section">
+
+        <div class="section-title reveal">
+
+            <span>03 • FUNCIONES</span>
+
+            <h2>
+                ¿Qué hace una Cámara
+                <strong>de Comercio?</strong>
+            </h2>
+
+            <p>
+                Sus funciones abarcan registros, apoyo empresarial,
+                desarrollo regional y solución de conflictos.
+            </p>
+
+        </div>
+
+
+        <div class="cards">
+
+            <article class="function-card reveal">
+
+                <div class="card-number">01</div>
+
+                <div class="card-icon">📋</div>
+
+                <h3>Registros públicos</h3>
+
+                <p>
+                    Administra registros como el Registro Mercantil,
+                    el Registro Único de Proponentes y el registro
+                    de entidades sin ánimo de lucro.
+                </p>
+
+            </article>
+
+
+            <article class="function-card reveal">
+
+                <div class="card-number">02</div>
+
+                <div class="card-icon">🚀</div>
+
+                <h3>Fortalecimiento empresarial</h3>
+
+                <p>
+                    Desarrolla programas de capacitación y
+                    acompañamiento para empresarios y emprendedores.
+                </p>
+
+            </article>
+
+
+            <article class="function-card reveal">
+
+                <div class="card-number">03</div>
+
+                <div class="card-icon">📈</div>
+
+                <h3>Competitividad</h3>
+
+                <p>
+                    Promueve proyectos y estrategias que contribuyen
+                    al desarrollo económico de las regiones.
+                </p>
+
+            </article>
+
+
+            <article class="function-card reveal">
+
+                <div class="card-number">04</div>
+
+                <div class="card-icon">⚖️</div>
+
+                <h3>Solución de conflictos</h3>
+
+                <p>
+                    Puede ofrecer mecanismos como arbitraje,
+                    conciliación y amigable composición.
+                </p>
+
+            </article>
+
+
+            <article class="function-card reveal">
+
+                <div class="card-number">05</div>
+
+                <div class="card-icon">🔎</div>
+
+                <h3>Investigación</h3>
+
+                <p>
+                    Realiza investigaciones y estudios relacionados
+                    con asuntos económicos, jurídicos y empresariales.
+                </p>
+
+            </article>
+
+
+            <article class="function-card reveal">
+
+                <div class="card-number">06</div>
+
+                <div class="card-icon">🤝</div>
+
+                <h3>Desarrollo regional</h3>
+
+                <p>
+                    Participa en iniciativas que buscan mejorar
+                    las condiciones económicas y empresariales.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- REGISTRO MERCANTIL -->
+    <section id="registro" class="registration">
+
+        <div class="registration-content reveal">
+
+            <span>04 • UNO DE SUS SERVICIOS MÁS IMPORTANTES</span>
+
+            <h2>
+                Registro
+                <strong>Mercantil</strong>
+            </h2>
+
+            <p>
+                El Registro Mercantil permite acreditar públicamente
+                la calidad de comerciante y hace visible información
+                empresarial para clientes y proveedores.
+            </p>
+
+            <div class="process">
+
+                <div>
+                    <span>01</span>
+                    <h3>Inscripción</h3>
+                    <p>Se registra el comerciante o establecimiento.</p>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <h3>Información pública</h3>
+                    <p>La información registrada puede ser consultada.</p>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <h3>Renovación</h3>
+                    <p>La matrícula debe renovarse cada año.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="registration-visual">
+
+            <div class="document-card">
+
+                <div class="document-top">
+                    <span>REGISTRO</span>
+                    <span>✓</span>
+                </div>
+
+                <div class="document-line long"></div>
+                <div class="document-line"></div>
+                <div class="document-line medium"></div>
+
+                <div class="stamp">
+                    VÁLIDO
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CÁMARA MEDELLÍN -->
+    <section class="medellin-section">
+
+        <div class="section-title reveal">
+
+            <span>05 • ANTIOQUIA</span>
+
+            <h2>
+                Cámara de Comercio
+                <strong>de Medellín para Antioquia</strong>
+            </h2>
+
+            <p>
+                Una institución que trabaja por el desarrollo empresarial
+                y regional de Antioquia.
+            </p>
+
+        </div>
+
+
+        <div class="medellin-grid">
+
+            <div class="location-card reveal">
+                <div class="big-icon">📍</div>
+                <h3>Medellín</h3>
+                <p>
+                    Su sede principal está ubicada en Medellín,
+                    Antioquia.
+                </p>
+            </div>
+
+            <div class="location-card reveal">
+                <div class="big-icon">🏢</div>
+                <h3>Empresas</h3>
+                <p>
+                    Atiende las necesidades de empresarios,
+                    emprendedores y organizaciones.
+                </p>
+            </div>
+
+            <div class="location-card reveal">
+                <div class="big-icon">🌎</div>
+                <h3>Región</h3>
+                <p>
+                    Contribuye al desarrollo económico y empresarial
+                    de Antioquia.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MITOS -->
+    <section class="section">
+
+        <div class="section-title reveal">
+
+            <span>06 • PARA ENTENDER MEJOR</span>
+
+            <h2>
+                Mito vs.
+                <strong>Realidad</strong>
+            </h2>
+
+        </div>
+
+
+        <div class="myths">
+
+            <div class="myth reveal">
+
+                <div class="myth-title">
+                    <span>MITO</span>
+                    <h3>La Cámara de Comercio es una empresa privada común.</h3>
+                </div>
+
+                <div class="reality">
+                    <strong>REALIDAD</strong>
+
+                    <p>
+                        Es una persona jurídica de derecho privado
+                        sin ánimo de lucro que además cumple determinadas
+                        funciones públicas por delegación legal.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="myth reveal">
+
+                <div class="myth-title">
+                    <span>MITO</span>
+                    <h3>Solo sirve para registrar empresas.</h3>
+                </div>
+
+                <div class="reality">
+                    <strong>REALIDAD</strong>
+
+                    <p>
+                        También desarrolla programas de fortalecimiento,
+                        competitividad, capacitación, investigación
+                        y mecanismos de solución de conflictos.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="myth reveal">
+
+                <div class="myth-title">
+                    <span>MITO</span>
+                    <h3>La Cámara reemplaza a la DIAN.</h3>
+                </div>
+
+                <div class="reality">
+                    <strong>REALIDAD</strong>
+
+                    <p>
+                        La Cámara de Comercio y la DIAN cumplen
+                        funciones diferentes. El registro mercantil
+                        no es lo mismo que el registro tributario.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUIZ -->
+    <section id="quiz" class="quiz-section">
+
+        <div class="quiz-box reveal">
+
+            <span>07 • PON A PRUEBA LO APRENDIDO</span>
+
+            <h2>
+                ¿Cuánto
+                <strong>aprendiste?</strong>
+            </h2>
+
+            <p id="question">
+                ¿Cuál es una de las principales funciones de
+                las cámaras de comercio?
+            </p>
+
+
+            <div class="answers">
+
+                <button onclick="answer(0)">
+                    Organizar elecciones presidenciales
+                </button>
+
+                <button onclick="answer(1)">
+                    Administrar registros públicos
+                </button>
+
+                <button onclick="answer(2)">
+                    Cobrar impuestos nacionales
+                </button>
+
+                <button onclick="answer(3)">
+                    Administrar bancos
+                </button>
+
+            </div>
+
+
+            <div id="quiz-result"></div>
+
+            <div class="score">
+                Puntos: <span id="score">0</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CIERRE -->
+    <section class="final-section">
+
+        <div class="final-content reveal">
+
+            <span>08 • CONCLUSIÓN</span>
+
+            <h2>
+                La Cámara de Comercio
+                <strong>conecta empresas con oportunidades.</strong>
+            </h2>
+
+            <p>
+                Su importancia está en facilitar la formalización,
+                fortalecer a los empresarios y contribuir al desarrollo
+                económico y social de las regiones.
+            </p>
+
+            <div class="quote">
+                “Formalizar, fortalecer y conectar para crecer.”
+            </div>
+
+            <a href="#inicio" class="btn primary">
+                ↑ Volver al inicio
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+            <strong>CÁMARA DE COMERCIO</strong>
+            <p>Exposición académica • Colombia • 2026</p>
+        </div>
+
+        <div>
+            <p>Fuentes: Cámara de Comercio de Medellín para Antioquia, Cámara de Comercio de Bogotá y Superintendencia de Sociedades.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
