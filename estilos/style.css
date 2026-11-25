@@ -903,6 +903,10 @@ nav a:hover {
     border-radius: 16px;
 }
 
+.member-photo.alan-photo {
+    object-position: 15% 35%;
+}
+
 .team-card h3 {
     margin-top: 20px;
     font-size: 20px;
